@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1571091666800' stop='1571091693852'>
+    <name>navigating to home page</name>
+    <title>navigating to home page</title>
+    <test-cases>
+        <test-case start='1571091666800' status='broken' stop='1571091680873'>
+            <name>should allow user to navigating home page to get Page title</name>
+            <title>should allow user to navigating home page to get Page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "head.title" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "head.title" because element wasn't found
+                    at HomePage.getText [as getPageTitle] (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/test/pageobjects/mt-home.page.js:32:30)
+                    at Context.getPageTitle (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/test/specs/mt-home.spec.js:15:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1571091680874' status='failed' stop='1571091688338'>
+            <name>should allow user to navigating home page to do key wor search</name>
+            <title>should allow user to navigating home page to do key wor search</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>'YOUR SEARCH FOR “SUPER CAR”' == 'YOUR SEARCH FOR “SUPER%20CAR”'</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: 'YOUR SEARCH FOR “SUPER CAR”' == 'YOUR SEARCH FOR “SUPER%20CAR”'
+                    at Context.equal (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/test/specs/mt-home.spec.js:25:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1571091688338' status='passed' stop='1571091691647'>
+            <name>should allow user to navigating home page to get and click main hero image</name>
+            <title>should allow user to navigating home page to get and click main hero image</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1571091691647' status='passed' stop='1571091693851'>
+            <name>should allow user to navigating home page to get and click tease image</name>
+            <title>should allow user to navigating home page to get and click tease image</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

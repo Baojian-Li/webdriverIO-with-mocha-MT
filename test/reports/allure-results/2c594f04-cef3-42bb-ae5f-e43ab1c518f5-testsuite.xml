@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1571091667037' stop='1571091670963'>
+    <name>navigating to article landing page</name>
+    <title>navigating to article landing page</title>
+    <test-cases>
+        <test-case start='1571091667038' status='broken' stop='1571091670962'>
+            <name>should allow user to navigate the news article page </name>
+            <title>should allow user to navigate the news article page </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>this.articleMainImage is not a function</message>
+                <stack-trace>TypeError: this.articleMainImage is not a function
+                    at ArticlePage.articleMainImage [as assureArtilceContent] (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/test/pageobjects/mt-article.page.js:41:12)
+                    at Context.assureArtilceContent (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/test/specs/mt-article.spec.js:19:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

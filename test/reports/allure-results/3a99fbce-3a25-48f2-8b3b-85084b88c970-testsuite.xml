@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1548216528326' stop='1548216532955'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1571072259413' stop='1571072266016'>
     <name>navigating to contact-us page</name>
     <title>navigating to contact-us page</title>
     <test-cases>
-        <test-case start='1548216528357' status='passed' stop='1548216532954'>
+        <test-case start='1571072259414' status='passed' stop='1571072266015'>
             <name>should allow user to navigating contact-us page </name>
             <title>should allow user to navigating contact-us page </title>
             <labels>

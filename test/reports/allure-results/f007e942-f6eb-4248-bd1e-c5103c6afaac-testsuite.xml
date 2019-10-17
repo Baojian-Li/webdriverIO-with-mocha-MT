@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1548216528690' stop='1548216533129'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1571072259677' stop='1571072265191'>
     <name>phptravels.net login page</name>
     <title>phptravels.net login page</title>
     <test-cases>
-        <test-case start='1548216528727' status='passed' stop='1548216533127'>
+        <test-case start='1571072259678' status='passed' stop='1571072265190'>
             <name>should allow user to login </name>
             <title>should allow user to login </title>
             <labels>

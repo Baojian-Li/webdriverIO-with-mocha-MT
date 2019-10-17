@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="navigating_to_search_page" timestamp="2019-10-16T14:56:36" time="7.453" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="navigating to search page"/>
+      <property name="capabilities" value="chrome.77_0_3865_120.macosx"/>
+      <property name="file" value="./test/specs/mt-search.spec.js"/>
+    </properties>
+    <testcase classname="chrome.77_0_3865_120.macosx.navigating_to_search_page" name="should_allow_user_to_navigating_search_result_page_by_key_word_search" time="7.451"/>
+  </testsuite>
+</testsuites>

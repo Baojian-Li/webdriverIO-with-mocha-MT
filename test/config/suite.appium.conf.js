@@ -37,55 +37,72 @@ exports.config = {
     //
     maxInstances: 15,
 
+    // capabilities: [{
+    //     appiumVersion: '1.15.0',
+    //     automationName: 'XCUITest',
+    //     platformName: 'iOS',
+    //     //platformVersion: '9.0',
+    //     platformVersion: '12.2',
+    //     deviceName: 'iPhone X',
+    //     //deviceName: 'iPhone 6s',
+    //     browserName: 'Safari',
+    //     orientation: 'PORTRAIT',
+    //     //nativeInstrumentsLib: true,
+    //     //isolateSimDevice: true,
+    //     clearSystemFiles: true,
+    //     //commandTimeout: '7200',
+    //     //app: APP_PATH
+    // }],
+
     capabilities: [{
-        appiumVersion: '1.6.5',
-        automationName: 'XCUITest',
-        platformName: 'iOS',
-        //platformVersion: '9.0',
-        deviceName: 'iPhone Simulator',
+        appiumVersion: '1.15.0',
+        automationName: 'UiAutomator2',
+        platformName: 'Android',
+        platformVersion: '9.0',
+        deviceName: 'Pixel 3 API 28',
         //deviceName: 'iPhone 6s',
-        browserName: 'Safari',
+        browserName: 'chrome',
+        maxInstances: 3,
+        // chromeOptions: {
+        //   androidPackage: 'com.android.chrome',
+        // },
+        //setDebugApp: '--persistent com.android.chrome',
+        chromeOptions: {args: ['--no-managed-user-acknowledgment-check', '--no-user-gesture-required', '--oobe-force-show-screen ⊗']},
         //orientation: 'PORTRAIT',
         //nativeInstrumentsLib: true,
         //isolateSimDevice: true,
-        clearSystemFiles: true,
-        //commandTimeout: '7200',
+        //clearSystemFiles: true,
         //app: APP_PATH
+        commandTimeout: '7200',
+        noReset: false,
+        //show_on_first_run_allowed: false,
+        dontStopAppOnReset: false,
+        show_on_first_run_allowed : false,
+        show_welcome_page: false,
+        appActivity: '.MainActivity',
+        appWaitActivity: 'SplashActivity',
+        noSign: true,
+        // intentCategory: 'android.intent.category.APP_CONTACTS',
+        // intentAction: 'android.intent.action.MAIN',
     }],
-
-    // capabilities: [{
-    //     appiumVersion: '1.6.5',
-    //     automationName: 'Appium',
-    //     platformName: 'Android',
-    //     //platformVersion: '9.0',
-    //     deviceName: 'Android Emulator',
-    //     //deviceName: 'iPhone 6s',
-    //     browserName: 'chrome',
-    //     // chromeOptions: {
-    //     //   androidPackage: 'com.android.chrome',
-    //     // },
-    //     //setDebugApp: '--persistent com.android.chrome',
-    //     chromeOptions: {args: ['--no-managed-user-acknowledgment-check', '--no-user-gesture-required', '--oobe-force-show-screen ⊗']},
-    //     //orientation: 'PORTRAIT',
-    //     //nativeInstrumentsLib: true,
-    //     //isolateSimDevice: true,
-    //     //clearSystemFiles: true,
-    //     //app: APP_PATH
-    //     commandTimeout: '7200',
-    //     noReset: false,
-    //     //show_on_first_run_allowed: false,
-    //     dontStopAppOnReset: false,
-    //     show_on_first_run_allowed : false,
-    //     show_welcome_page: false,
-    //     appActivity: '.MainActivity',
-    //     appWaitActivity: 'SplashActivity',
-    //     noSign: true,
-    //     // intentCategory: 'android.intent.category.APP_CONTACTS',
-    //     // intentAction: 'android.intent.action.MAIN',
-    // }],
-
+    runner: 'local',
     host: '0.0.0.0',
-    port: '4723',
+    port: 4723,
+
+    // ====================
+    // Appium Configuration
+    // ====================
+    services: [ 'appium' ],
+    appium: {
+        // For options see
+        // https://github.com/webdriverio/webdriverio/tree/master/packages/wdio-appium-service
+        args: {
+            // For arguments see
+            // https://github.com/webdriverio/webdriverio/tree/master/packages/wdio-appium-service
+        },
+        command : 'appium'
+    },
+
     //
     // ===================
     // Test Configurations
@@ -102,7 +119,7 @@ exports.config = {
     //
     // Set a base URL in order to shorten url command calls. If your url parameter starts
     // with "/", then the base url gets prepended.
-    baseUrl: 'http://www.phptravels.net',
+    baseUrl: 'https://www.motortrend.com/',
     waitforTimeout: 90000,          // Default timeout for all waitFor* commands.
     connectionRetryTimeout: 90000,  // Default timeout in milliseconds for request if Selenium Grid doesn't send response
     connectionRetryCount: 3,        // Default request retries count

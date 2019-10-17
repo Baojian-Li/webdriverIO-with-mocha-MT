@@ -10,7 +10,8 @@ exports.config = {
     // WebdriverIO allows it to run your tests in arbitrary locations (e.g. locally or
     // on a remote machine).
     runner: 'local',
-
+    services: ['selenium-standalone'],
+    
     // ==================
     // Specify Test Files
     // ==================
@@ -111,7 +112,7 @@ exports.config = {
     //
     // Set a base URL in order to shorten url command calls. If your url parameter starts
     // with "/", then the base url gets prepended.
-    baseUrl: 'http://www.phptravels.net',
+    baseUrl: 'https://www.motortrend.com/',
     waitforTimeout: 10000,            // Default timeout for all waitFor* commands.
     connectionRetryTimeout: 90000,    // Default timeout in milliseconds for request if Selenium Grid doesn't send response
     connectionRetryCount: 3,          // Default request retries count

@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1571202636009' stop='1571202650711'>
+    <name>navigating to home page</name>
+    <title>navigating to home page</title>
+    <test-cases>
+        <test-case start='1571202636010' status='passed' stop='1571202645518'>
+            <name>should allow user to navigating home page to do key wor search</name>
+            <title>should allow user to navigating home page to do key wor search</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1571202645519' status='passed' stop='1571202648051'>
+            <name>should allow user to navigating home page to get and click main hero image</name>
+            <title>should allow user to navigating home page to get and click main hero image</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1571202648052' status='passed' stop='1571202650709'>
+            <name>should allow user to navigating home page to get and click tease image</name>
+            <title>should allow user to navigating home page to get and click tease image</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,107 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1571093011264' stop='1571093031244'>
+    <name>navigating to article landing page</name>
+    <title>navigating to article landing page</title>
+    <test-cases>
+        <test-case start='1571093011265' status='passed' stop='1571093014952'>
+            <name>should allow user to get article title</name>
+            <title>should allow user to get article title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1571093014952' status='passed' stop='1571093018341'>
+            <name>should allow user to get article sub title</name>
+            <title>should allow user to get article sub title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1571093018342' status='broken' stop='1571093021564'>
+            <name>should allow user to click article main image</name>
+            <title>should allow user to click article main image</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>_mtArticle.default.clickMainImage is not a function</message>
+                <stack-trace>TypeError: _mtArticle.default.clickMainImage is not a function
+                    at Context.clickMainImage (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/test/specs/mt-article.spec.js:37:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1571093021564' status='broken' stop='1571093024767'>
+            <name>should allow user to get article body</name>
+            <title>should allow user to get article body</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>_mtArticle.default.getBodyText is not a function</message>
+                <stack-trace>TypeError: _mtArticle.default.getBodyText is not a function
+                    at Context.getBodyText (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/test/specs/mt-article.spec.js:45:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1571093024767' status='broken' stop='1571093028005'>
+            <name>should allow user to click image gallery</name>
+            <title>should allow user to click image gallery</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>this.articleImageGalleries.clickl is not a function</message>
+                <stack-trace>TypeError: this.articleImageGalleries.clickl is not a function
+                    at ArticlePage.clickl [as clickImageGallery] (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/test/pageobjects/mt-article.page.js:49:34)
+                    at Context.clickImageGallery (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/test/specs/mt-article.spec.js:53:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1571093028006' status='passed' stop='1571093031244'>
+            <name>should allow user to click realated article</name>
+            <title>should allow user to click realated article</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

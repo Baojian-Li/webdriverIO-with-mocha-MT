@@ -1,0 +1,97 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1571093696620' stop='1571093715801'>
+    <name>navigating to article landing page</name>
+    <title>navigating to article landing page</title>
+    <test-cases>
+        <test-case start='1571093696620' status='passed' stop='1571093698524'>
+            <name>should allow user to get article title</name>
+            <title>should allow user to get article title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1571093698525' status='passed' stop='1571093700006'>
+            <name>should allow user to get article sub title</name>
+            <title>should allow user to get article sub title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1571093700006' status='passed' stop='1571093701814'>
+            <name>should allow user to click article main image</name>
+            <title>should allow user to click article main image</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1571093701814' status='passed' stop='1571093703226'>
+            <name>should allow user to get article body</name>
+            <title>should allow user to get article body</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1571093703226' status='broken' stop='1571093714435'>
+            <name>should allow user to click image gallery</name>
+            <title>should allow user to click image gallery</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "//div[@class="_3Q_e6Q-QRC9uPhXdjoEkE0"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//div[@class="_3Q_e6Q-QRC9uPhXdjoEkE0"]" because element wasn't found
+                    at ArticlePage.click [as clickImageGallery] (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/test/pageobjects/mt-article.page.js:57:34)
+                    at Context.clickImageGallery (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/test/specs/mt-article.spec.js:53:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1571093714436' status='passed' stop='1571093715800'>
+            <name>should allow user to click realated article</name>
+            <title>should allow user to click realated article</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
