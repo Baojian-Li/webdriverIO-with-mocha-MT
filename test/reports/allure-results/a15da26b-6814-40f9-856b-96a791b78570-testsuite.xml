@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1571374199682' stop='1571374202981'>
+    <name>navigating to search page</name>
+    <title>navigating to search page</title>
+    <test-cases>
+        <test-case start='1571374199682' status='broken' stop='1571374202980'>
+            <name>should allow user to navigating search result page by key word search </name>
+            <title>should allow user to navigating search result page by key word search </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element ("//h1[@class="title"]") still not displayed after 1000ms</message>
+                <stack-trace>Error: element ("//h1[@class="title"]") still not displayed after 1000ms
+                    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+                    at SearchPage.waitForDisplayed [as waitForSearchPageToLoad] (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/pageobjects/mt-search.page.js:19:28)
+                    at Context.waitForSearchPageToLoad (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/test/specs/mt-search.spec.js:14:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "node-inspector": "node-inspector --debug-port 5859 --no-preload",
-    "test": "node node_modules/.bin/wdio ./test/config/suite.mocha.conf.js",
-    "allure-report": "node_modules/.bin/allure generate ./test/reports/allure-results && allure report",
-    "junit-report": "node_modules/.bin/junit-viewer --results=./test/reports/junit-results --save=junit-results.html && open junit-results.html"
+    "test": "node node_modules/.bin/wdio ./config/suite.mocha.conf.js",
+    "allure-report": "node_modules/.bin/allure generate ./reports/allure-results && allure report",
+    "junit-report": "node_modules/.bin/junit-viewer --results=./reports/junit-results --save=junit-results.html && open junit-results.html"
   },
   "keywords": [
     "selenium",

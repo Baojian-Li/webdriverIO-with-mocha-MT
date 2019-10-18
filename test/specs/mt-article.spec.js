@@ -1,5 +1,5 @@
 
-import article from '../pageobjects/mt-article.page';
+import article from '../../pageobjects/mt-article.page';
 import assert from 'assert';
 import utl from '../../utilities/common-utilities';
 //var utl = require('../../utilities/common-utilities');

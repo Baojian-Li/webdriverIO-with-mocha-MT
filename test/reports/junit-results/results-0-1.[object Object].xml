@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="navigating_to_home_page" timestamp="2019-10-16T14:56:36" time="17.703" tests="3" failures="0" errors="0" skipped="0">
+  <testsuite name="navigating_to_home_page" timestamp="2019-10-17T21:50:48" time="11.042" tests="3" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="navigating to home page"/>
       <property name="capabilities" value="chrome.77_0_3865_120.macosx"/>
       <property name="file" value="./test/specs/mt-home.spec.js"/>
     </properties>
-    <testcase classname="chrome.77_0_3865_120.macosx.navigating_to_home_page" name="should_allow_user_to_navigating_home_page_to_do_key_wor_search" time="14.066"/>
-    <testcase classname="chrome.77_0_3865_120.macosx.navigating_to_home_page" name="should_allow_user_to_navigating_home_page_to_get_and_click_main_hero_image" time="2.381"/>
-    <testcase classname="chrome.77_0_3865_120.macosx.navigating_to_home_page" name="should_allow_user_to_navigating_home_page_to_get_and_click_tease_image" time="1.253"/>
+    <testcase classname="chrome.77_0_3865_120.macosx.navigating_to_home_page" name="should_allow_user_to_navigating_home_page_to_do_key_wor_search" time="7.422"/>
+    <testcase classname="chrome.77_0_3865_120.macosx.navigating_to_home_page" name="should_allow_user_to_navigating_home_page_to_get_and_click_main_hero_image" time="2.363"/>
+    <testcase classname="chrome.77_0_3865_120.macosx.navigating_to_home_page" name="should_allow_user_to_navigating_home_page_to_get_and_click_tease_image" time="1.256"/>
   </testsuite>
 </testsuites>

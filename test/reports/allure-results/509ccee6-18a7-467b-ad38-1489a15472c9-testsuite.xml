@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1571358010671' stop='1571358010686'>
+    <name>navigating to home page</name>
+    <title>navigating to home page</title>
+    <test-cases>
+        <test-case start='1571358010672' status='broken' stop='1571358010684'>
+            <name>should allow user to navigating home page to do key wor search</name>
+            <title>should allow user to navigating home page to do key wor search</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Invalid URL: /</message>
+                <stack-trace>TypeError [ERR_INVALID_URL]: Invalid URL: /
+                    at onParseError (internal/url.js:243:9)
+                    at new URL (internal/url.js:319:5)
+                    at HomePage.url (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/pageobjects/page.js:4:13)
+                    at HomePage.open (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/pageobjects/mt-home.page.js:21:15)
+                    at Context.open (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/test/specs/mt-home.spec.js:23:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1571358010684' status='broken' stop='1571358010685'>
+            <name>should allow user to navigating home page to get and click main hero image</name>
+            <title>should allow user to navigating home page to get and click main hero image</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Invalid URL: /</message>
+                <stack-trace>TypeError [ERR_INVALID_URL]: Invalid URL: /
+                    at onParseError (internal/url.js:243:9)
+                    at new URL (internal/url.js:319:5)
+                    at HomePage.url (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/pageobjects/page.js:4:13)
+                    at HomePage.open (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/pageobjects/mt-home.page.js:21:15)
+                    at Context.open (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/test/specs/mt-home.spec.js:32:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1571358010685' status='broken' stop='1571358010686'>
+            <name>should allow user to navigating home page to get and click tease image</name>
+            <title>should allow user to navigating home page to get and click tease image</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Invalid URL: /</message>
+                <stack-trace>TypeError [ERR_INVALID_URL]: Invalid URL: /
+                    at onParseError (internal/url.js:243:9)
+                    at new URL (internal/url.js:319:5)
+                    at HomePage.url (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/pageobjects/page.js:4:13)
+                    at HomePage.open (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/pageobjects/mt-home.page.js:21:15)
+                    at Context.open (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/test/specs/mt-home.spec.js:41:10)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

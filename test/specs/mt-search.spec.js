@@ -1,5 +1,5 @@
 
-import search from '../pageobjects/mt-search.page';
+import search from '../../pageobjects/mt-search.page';
 import assert from 'assert';
 
 /*

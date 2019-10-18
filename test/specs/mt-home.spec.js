@@ -1,6 +1,6 @@
 
-import home from '../pageobjects/mt-home.page';
-import search from '../pageobjects/mt-search.page';
+import home from '../../pageobjects/mt-home.page';
+import search from '../../pageobjects/mt-search.page';
 import assert from 'assert';
 
 /*

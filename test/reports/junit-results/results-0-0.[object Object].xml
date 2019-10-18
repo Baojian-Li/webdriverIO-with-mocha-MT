@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="navigating_to_article_landing_page" timestamp="2019-10-16T14:56:37" time="13.127" tests="5" failures="0" errors="0" skipped="0">
+  <testsuite name="navigating_to_article_landing_page" timestamp="2019-10-17T21:50:48" time="8.149" tests="5" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="navigating to article landing page"/>
       <property name="capabilities" value="chrome.77_0_3865_120.macosx"/>
       <property name="file" value="./test/specs/mt-article.spec.js"/>
     </properties>
-    <testcase classname="chrome.77_0_3865_120.macosx.navigating_to_article_landing_page" name="should_allow_user_to_get_article_title" time="2.824"/>
-    <testcase classname="chrome.77_0_3865_120.macosx.navigating_to_article_landing_page" name="should_allow_user_to_get_article_sub_title" time="1.369"/>
-    <testcase classname="chrome.77_0_3865_120.macosx.navigating_to_article_landing_page" name="should_allow_user_to_click_article_main_image" time="1.32"/>
-    <testcase classname="chrome.77_0_3865_120.macosx.navigating_to_article_landing_page" name="should_allow_user_to_get_article_body" time="1.414"/>
-    <testcase classname="chrome.77_0_3865_120.macosx.navigating_to_article_landing_page" name="should_allow_user_to_click_realated_article" time="6.196"/>
+    <testcase classname="chrome.77_0_3865_120.macosx.navigating_to_article_landing_page" name="should_allow_user_to_get_article_title" time="2.024"/>
+    <testcase classname="chrome.77_0_3865_120.macosx.navigating_to_article_landing_page" name="should_allow_user_to_get_article_sub_title" time="1.182"/>
+    <testcase classname="chrome.77_0_3865_120.macosx.navigating_to_article_landing_page" name="should_allow_user_to_click_article_main_image" time="1.858"/>
+    <testcase classname="chrome.77_0_3865_120.macosx.navigating_to_article_landing_page" name="should_allow_user_to_get_article_body" time="1.539"/>
+    <testcase classname="chrome.77_0_3865_120.macosx.navigating_to_article_landing_page" name="should_allow_user_to_click_realated_article" time="1.544"/>
   </testsuite>
 </testsuites>

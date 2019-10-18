@@ -1,0 +1,112 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1571373077383' stop='1571373089159'>
+    <name>navigating to article landing page</name>
+    <title>navigating to article landing page</title>
+    <test-cases>
+        <test-case start='1571373077383' status='broken' stop='1571373080524'>
+            <name>should allow user to get article title</name>
+            <title>should allow user to get article title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element ("//h1[@class="NNlNPAytZNWqPEnch01yw"]") still not displayed after 1000ms</message>
+                <stack-trace>Error: element ("//h1[@class="NNlNPAytZNWqPEnch01yw"]") still not displayed after 1000ms
+                    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+                    at ArticlePage.waitForDisplayed [as waitForArticlePageToLoad] (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/pageobjects/mt-article.page.js:36:27)
+                    at Context.waitForArticlePageToLoad (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/test/specs/mt-article.spec.js:19:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1571373080524' status='broken' stop='1571373082673'>
+            <name>should allow user to get article sub title</name>
+            <title>should allow user to get article sub title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element ("//h1[@class="NNlNPAytZNWqPEnch01yw"]") still not displayed after 1000ms</message>
+                <stack-trace>Error: element ("//h1[@class="NNlNPAytZNWqPEnch01yw"]") still not displayed after 1000ms
+                    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+                    at ArticlePage.waitForDisplayed [as waitForArticlePageToLoad] (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/pageobjects/mt-article.page.js:36:27)
+                    at Context.waitForArticlePageToLoad (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/test/specs/mt-article.spec.js:27:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1571373082674' status='broken' stop='1571373084829'>
+            <name>should allow user to click article main image</name>
+            <title>should allow user to click article main image</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element ("//h1[@class="NNlNPAytZNWqPEnch01yw"]") still not displayed after 1000ms</message>
+                <stack-trace>Error: element ("//h1[@class="NNlNPAytZNWqPEnch01yw"]") still not displayed after 1000ms
+                    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+                    at ArticlePage.waitForDisplayed [as waitForArticlePageToLoad] (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/pageobjects/mt-article.page.js:36:27)
+                    at Context.waitForArticlePageToLoad (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/test/specs/mt-article.spec.js:35:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1571373084829' status='broken' stop='1571373086990'>
+            <name>should allow user to get article body</name>
+            <title>should allow user to get article body</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element ("//h1[@class="NNlNPAytZNWqPEnch01yw"]") still not displayed after 1000ms</message>
+                <stack-trace>Error: element ("//h1[@class="NNlNPAytZNWqPEnch01yw"]") still not displayed after 1000ms
+                    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+                    at ArticlePage.waitForDisplayed [as waitForArticlePageToLoad] (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/pageobjects/mt-article.page.js:36:27)
+                    at Context.waitForArticlePageToLoad (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/test/specs/mt-article.spec.js:43:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1571373086990' status='broken' stop='1571373089158'>
+            <name>should allow user to click realated article</name>
+            <title>should allow user to click realated article</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element ("//h1[@class="NNlNPAytZNWqPEnch01yw"]") still not displayed after 1000ms</message>
+                <stack-trace>Error: element ("//h1[@class="NNlNPAytZNWqPEnch01yw"]") still not displayed after 1000ms
+                    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+                    at ArticlePage.waitForDisplayed [as waitForArticlePageToLoad] (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/pageobjects/mt-article.page.js:36:27)
+                    at Context.waitForArticlePageToLoad (/Users/bli1/Downloads/develpment/Node/webdriverIO-with-mocha-MT/test/specs/mt-article.spec.js:59:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
