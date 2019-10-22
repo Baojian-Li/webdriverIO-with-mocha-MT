@@ -5,9 +5,7 @@ import utl from '../../utilities/common-utilities';
 //var utl = require('../../utilities/common-utilities');
 
 
-/*
-	This is a BDD test using Mocha JavaScript framework
-*/
+/* This is a BDD test using Mocha JavaScript framework */
 
 describe('navigating to article landing page', function() {
 

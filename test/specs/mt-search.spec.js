@@ -2,9 +2,7 @@
 import search from '../../pageobjects/mt-search.page';
 import assert from 'assert';
 
-/*
-	This is a BDD test using Mocha JavaScript framework
-*/
+/*	This is a BDD test using Mocha JavaScript framework.  */
 
 describe('navigating to search page', function() {
   it('should allow user to navigating search result page by key word search ', function () {

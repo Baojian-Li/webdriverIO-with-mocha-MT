@@ -6,9 +6,7 @@ class SearchPage extends Page {
 
     get resultMessage () { return $('//h1[@class="title"]'); }
 
-    /**
-     * define or overwrite page methods
-     */
+    /*** define or overwrite page methods ***/
     open (q) {
         super.open('/s/' + q)
         browser.pause(1000);

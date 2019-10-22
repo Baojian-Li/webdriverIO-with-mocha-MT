@@ -20,16 +20,13 @@ class ArticlePage extends Page {
     // get footerImage()     { return $('//*[@class="pull-right brand img-responsive"]'); }
 
 
-    /**
-     * define or overwrite page methods
-     */
+    /*** define or overwrite page methods ***/
     open (slug) {
-        super.open('/news/' + slug);       //this will append `login` to the baseUrl to form complete URL
+        super.open('/news/' + slug);
         browser.pause(1000);
     }
-    /**
-     * your page specific methods
-     */
+
+    /*** your page specific methods ***/
 
     waitForArticlePageToLoad () {
       if(!this.articleTitle.isDisplayed()){

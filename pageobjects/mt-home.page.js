@@ -14,9 +14,7 @@ class HomePage extends Page {
 
     // get contactUsText ()     { return $('//div/h3[contains(., "Contact Us")]'); }
 
-    /**
-     * define or overwrite page methods
-     */
+    /*** define or overwrite page methods ***/
     open () {
         super.open('/')
         browser.pause(1000);
